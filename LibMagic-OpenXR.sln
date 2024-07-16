@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibMagicOpenXR", "LibMagic-OpenXR.vcxproj", "{807F704E-4009-4B96-B860-EF7EB2429A81}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "VarjoOpenXRGame", "..\VarjoUnrealOpenXRExamples\VarjoOpenXRGame\Output\Windows\VarjoOpenXRGame\Binaries\Win64\VarjoOpenXRGame.exe", "{7A0FDCAC-81FB-48D1-BBD4-9AF56BAF847C}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = D:\XR\VarjoUnrealOpenXRExamples\VarjoOpenXRGame\Output\Windows\VarjoOpenXRGame\Binaries\Win64\VarjoOpenXRGame.exe
+		RemoteMachine = DESKTOP-QQTQF33
+		StartingDirectory = D:\XR\VarjoUnrealOpenXRExamples\VarjoOpenXRGame\Output\Windows\VarjoOpenXRGame\Binaries\Win64
+		Arguments = -d3d11
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "StereoKitCTest", "C:\Users\mbucc\OneDrive\Desktop\TestApps\OPENXR APPS\StereoKitCTest.exe", "{EF47042C-FC93-40E0-8204-B49E3A1708CB}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\mbucc\OneDrive\Desktop\TestApps\OPENXR APPS\StereoKitCTest.exe
+		RemoteMachine = DESKTOP-QQTQF33
+		StartingDirectory = C:\Users\mbucc\OneDrive\Desktop\TestApps\OPENXR APPS
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "hello_xr", "..\OpenXR-SDK-Source\out\build\x64-Debug\src\tests\hello_xr\hello_xr.exe", "{7897A4F6-AAB2-4CA2-B5B1-C0C03B30097E}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = D:\XR\OpenXR-SDK-Source\out\build\x64-Debug\src\tests\hello_xr\hello_xr.exe
+		RemoteMachine = DESKTOP-QQTQF33
+		StartingDirectory = D:\XR\OpenXR-SDK-Source\out\build\x64-Debug\src\tests\hello_xr
+		Arguments = -g d3d11
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{807F704E-4009-4B96-B860-EF7EB2429A81}.Debug|x64.ActiveCfg = Debug|x64
+		{807F704E-4009-4B96-B860-EF7EB2429A81}.Debug|x64.Build.0 = Debug|x64
+		{807F704E-4009-4B96-B860-EF7EB2429A81}.Debug|x86.ActiveCfg = Debug|Win32
+		{807F704E-4009-4B96-B860-EF7EB2429A81}.Debug|x86.Build.0 = Debug|Win32
+		{807F704E-4009-4B96-B860-EF7EB2429A81}.Release|x64.ActiveCfg = Release|x64
+		{807F704E-4009-4B96-B860-EF7EB2429A81}.Release|x64.Build.0 = Release|x64
+		{807F704E-4009-4B96-B860-EF7EB2429A81}.Release|x86.ActiveCfg = Release|Win32
+		{807F704E-4009-4B96-B860-EF7EB2429A81}.Release|x86.Build.0 = Release|Win32
+		{7A0FDCAC-81FB-48D1-BBD4-9AF56BAF847C}.Debug|x64.ActiveCfg = Release|x64
+		{7A0FDCAC-81FB-48D1-BBD4-9AF56BAF847C}.Debug|x86.ActiveCfg = Release|x64
+		{7A0FDCAC-81FB-48D1-BBD4-9AF56BAF847C}.Release|x64.ActiveCfg = Release|x64
+		{7A0FDCAC-81FB-48D1-BBD4-9AF56BAF847C}.Release|x86.ActiveCfg = Release|x64
+		{EF47042C-FC93-40E0-8204-B49E3A1708CB}.Debug|x64.ActiveCfg = Release|x64
+		{EF47042C-FC93-40E0-8204-B49E3A1708CB}.Debug|x86.ActiveCfg = Release|x64
+		{EF47042C-FC93-40E0-8204-B49E3A1708CB}.Release|x64.ActiveCfg = Release|x64
+		{EF47042C-FC93-40E0-8204-B49E3A1708CB}.Release|x86.ActiveCfg = Release|x64
+		{7897A4F6-AAB2-4CA2-B5B1-C0C03B30097E}.Debug|x64.ActiveCfg = Release|x64
+		{7897A4F6-AAB2-4CA2-B5B1-C0C03B30097E}.Debug|x86.ActiveCfg = Release|x64
+		{7897A4F6-AAB2-4CA2-B5B1-C0C03B30097E}.Release|x64.ActiveCfg = Release|x64
+		{7897A4F6-AAB2-4CA2-B5B1-C0C03B30097E}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {461271A2-2783-424A-99B3-D23F3B9757B7}
+	EndGlobalSection
+EndGlobal
